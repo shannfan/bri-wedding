@@ -1,0 +1,92 @@
+$sage: #8BA974;
+$gray: #807F83;
+
+p{
+	font-family: 'Muli', sans-serif;
+	color: $gray;
+	font-size:.9em;
+}
+
+h3{
+	color:$sage;
+	text-align:center;
+}
+
+h4{
+	color:$sage;
+	margin-bottom:25px;
+	text-decoration:underline;
+}
+
+.subhead{
+	text-transform:uppercase;
+	color:$sage;
+	margin-bottom:0em;
+}
+
+.header{
+	background-color:$sage;
+	height:80px;
+}
+
+.header p{
+	color: white;
+	margin-top: 28px;
+	text-align: center;
+	font-weight:bold;
+}
+
+.full-photo{
+	background: url(../images/placeholder.jpg) no-repeat center center fixed; 
+	height:70vh;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+.full-photo p{
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	margin-top:30vh;
+}
+
+.intro{
+	text-align:center;
+	max-width:700px;
+	margin:auto;
+	margin-bottom: 20px;
+	font-size:1em;
+}
+
+.photo-frame-rect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 300px;
+}
+.photo-frame-rect img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.ornament{
+	width:30px;
+	margin-top:20px;
+}
+
+.add-space{
+	margin-top:30px;
+}
+
+#map {
+    max-width: 1200px;
+    height: 500px;
+    margin: auto;
+}
+
