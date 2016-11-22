@@ -13,6 +13,7 @@
   <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" media="screen" title="no title" charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://player.vimeo.com/api/player.js"></script>
   <script src="scrollspy.js" charset="utf-8"></script>
@@ -31,6 +32,8 @@
                 var mapOptions = {
                     // How zoomed in you want the map to start at (always required)
                     zoom: 11,
+
+                    scrollwheel: false,
 
                     // The latitude and longitude to center the map (always required)
                     center: new google.maps.LatLng(40.6700, -73.9400), // New York
@@ -62,7 +65,7 @@
 <body id="view">
   <div id="wrapper">
   <div class="container-full-width header">
-    <p>Alex + Alex</p>
+    <p>Alex <span class="emph">and</span> Alex</p>
   </div>
   <div class="container-full-width full-photo">
     <p>December 9, 2017</p>
@@ -85,12 +88,12 @@
   </div>
 
   <div class="add-space">
-   <center><div><img class="ornament" src="images/heart.svg"></div></center>
+   <center><div><img class="ornament" src="images/ornament.svg"></div></center>
   </div>
 
   <div class="container-tl add-space">
     <div class="row">
-      <div class="col-pl-50 col-tl-50"">
+      <div class="col-pl-50 col-tl-50 ">
           <h4>Friday, December 8th</h4>
           <p class="subhead">Rehearsal Dinner 6:00 PM</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam, massa risus vulputate urna, et vulputate lectus lorem eu quam.</p>
@@ -98,7 +101,7 @@
           <p class="subhead">Kick-Off Party 9:00 PM</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam, massa risus vulputate urna, et vulputate lectus lorem eu quam.</p>
       </div>
-      <div class="col-pl-50 col-tl-50">
+      <div class="col-pl-50 col-tl-50 ">
           <h4>Saturday, December 9th</h4>
           <p class="subhead">Ceremony 6:00 PM</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam, massa risus vulputate urna, et vulputate lectus lorem eu quam.</p>
@@ -111,7 +114,7 @@
   </div>
 
   <div class="add-space">
-    <center><div><img class="ornament" src="images/heart.svg"></div></center>
+    <center><div><img class="ornament" src="images/ornament.svg"></div></center>
   </div>
 
   <div class="container add-space">
@@ -119,13 +122,131 @@
   </div>
 
   <div class="add-space">
-    <center><div><img class="ornament" src="images/heart.svg"></div></center>
+    <center><div><img class="ornament" src="images/ornament.svg"></div></center>
+  </div>
+
+  <div class="container">
+    <h3>Where to stay</h3>
+    <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam.</p>
+  </div>
+
+  <div class="container-tl">
+    <div class="row">
+      <div class="col-pl-50 col-tl-50">
+          <p class="subhead">Hotel #1</p>
+          <p><b>123 Address Goes Here, New York, NY 10011</b></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam, massa risus vulputate urna, et vulputate lectus lorem eu quam.</p>
+          <a target="_blank" href="http://www.melcher.com">Book Here</a>
+      </div>
+      <div class="col-pl-50 col-tl-50 ">
+          <p class="subhead">Hotel #2</p>
+          <p><b>123 Address Goes Here, New York, NY 10011</b></p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam, massa risus vulputate urna, et vulputate lectus lorem eu quam.</p>
+          <a target="_blank" href="http://www.melcher.com">Book Here</a>
+      </div>
+    </div>
+  
+  </div>
+
+  <div class="add-space">
+    
+  </div>
+
+  <div class="container">
+    <h3>How to get there</h3>
+  </div>
+
+  <div class="container-tl">
+    <div class="row">
+      <div class="col-pl-50 col-tl-50">
+          <p class="subhead">By Car</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam, massa risus vulputate urna, et vulputate lectus lorem eu quam.</p>
+          <a target="_blank" href="http://www.melcher.com">Link here</a>
+      </div>
+      <div class="col-pl-50 col-tl-50 ">
+          <p class="subhead">By Train</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam, massa risus vulputate urna, et vulputate lectus lorem eu quam.</p>
+          <a target="_blank" href="http://www.melcher.com">Link here</a>
+      </div>
+    </div>
+  
+  </div>
+  
+  </div>
+
+  <div class="add-space">
+    <center><div><img class="ornament" src="images/ornament.svg"></div></center>
+  </div>
+
+  <div class="container">
+    <h3>Things to do</h3>
+    <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam.</p>
+  </div>
+
+  <div class="container-tl">
+    <div class="row">
+      <div class="col-pl-33 col-tl-33 centered">
+          <p class="subhead">Food and Drink</p>
+          <p><a target="_blank" href="http://www.melcher.com">Item Goes Here</a></p>
+          <p><a target="_blank" href="http://www.melcher.com">Item Goes Here</a></p>
+          <p><a target="_blank" href="http://www.melcher.com">Item Goes Here</a></p>
+      </div>
+      <div class="col-pl-33 col-tl-33 centered">
+          <p class="subhead">Activities</p>
+          <p><a target="_blank" href="http://www.melcher.com">Item Goes Here</a></p>
+          <p><a target="_blank" href="http://www.melcher.com">Item Goes Here</a></p>
+          <p><a target="_blank" href="http://www.melcher.com">Item Goes Here</a></p>
+      </div>
+      <div class="col-pl-33 col-tl-33 centered">
+          <p class="subhead">Shopping</p>
+          <p><a target="_blank" href="http://www.melcher.com">Item Goes Here</a></p>
+          <p><a target="_blank" href="http://www.melcher.com">Item Goes Here</a></p>
+          <p><a target="_blank" href="http://www.melcher.com">Item Goes Here</a></p>
+      </div>
+    </div>
+  
+  </div>
+
+  <div class="add-space">
+    <center><div><img class="ornament" src="images/ornament.svg"></div></center>
+  </div>
+
+  <div class="container">
+    <h3>Registry</h3>
+    <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam.</p>
+  </div>
+
+  <div class="container-tl">
+    <div class="row">
+      <div class="col-pl-33 col-tl-33 ">
+          <a class="registry" href="http://www.melcher.com" target="_blank">Amazon</a>
+      </div>
+      <div class="col-pl-33 col-tl-33 ">
+          <a class="registry" href="http://www.melcher.com" target="_blank">Crate &amp; Barrel</a>
+      </div>
+      <div class="col-pl-33 col-tl-33 ">
+          <a class="registry" href="http://www.melcher.com" target="_blank">Macy's</a>
+      </div>
+    </div>
+  
+  </div>
+
+  <div class="add-space">
+  <p>&nbsp;</p>
   </div>
 
   <div class="container add-space">
-    <h3>Where to stay</h3>
-    <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam, massa risus vulputate urna, et vulputate lectus lorem eu quam. Nullam dapibus turpis mi, eget tincidunt est vestibulum ut. Integer quis mollis quam, dapibus dictum sapien. In posuere ullamcorper quam, et tincidunt elit vulputate eu.</p>
+    <div class="row">
+      <div class="col-pl-50 col-tl-50"">
+          <div class="photo-frame-rect"><img src="images/placeholder2.jpg"></div>
+      </div>
+      <div class="col-pl-50 col-tl-50">
+           <div class="photo-frame-rect"><img src="images/placeholder3.jpg"></div>
+      </div>
+    </div>
   </div>
+
+  <p class="footer">#WhenAlexMetAlex</p>
 		
   </div> <!--END WRAPPER-->
 
