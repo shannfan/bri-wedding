@@ -1,65 +1,71 @@
+.mobile {
+  display: none; }
+
+.desktop {
+  display: block; }
+
 p {
-  font-family: 'Muli', sans-serif;
-  color: #807F83;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #272629;
   font-size: .9em; }
 
 a {
-  color: #807F83; }
+  color: #272629;
+  font-size: .9em;
+  padding-top: -10px;
+  text-transform: uppercase; }
 
 a:hover {
-  color: #8BA974; }
+  color: #272629; }
 
 a:visited {
-  color: #8BA974; }
+  color: #272629; }
 
 a:focus {
-  color: #8BA974; }
+  color: #272629; }
 
 h3 {
-  color: #8BA974;
+  color: #296170;
   text-align: center;
-  font-family: 'Abril Fatface', cursive; }
+  font-family: 'Work Sans', sans-serif; }
 
 h4 {
-  color: #8BA974;
+  color: #296170;
   margin-bottom: 25px;
   text-decoration: underline;
-  font-family: 'Abril Fatface', cursive; }
+  font-family: 'Work Sans', sans-serif; }
 
 .emph {
   color: white; }
 
 .subhead {
   text-transform: uppercase;
-  color: #8BA974;
+  color: #296170;
   margin-bottom: 0em;
   margin-top: 10px; }
 
 .header {
-  background-color: #8BA974;
-  height: 80px; }
+  height: 80px;
+  padding-top: 10px; }
+
+.header a {
+  color: white;
+  padding-top: -10px;
+  text-transform: uppercase;
+  text-decoration: none !important; }
 
 .header p {
-  color: black;
-  margin-top: 28px;
-  text-align: center;
-  font-family: 'Abril Fatface', cursive; }
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Source Sans Pro', sans-serif; }
 
 .full-photo {
-  background: url(../images/alexalex_placeholder.jpg) no-repeat center center fixed;
-  height: 70vh;
+  background: url(../images/BriJamieCover.jpg) no-repeat center center fixed;
+  height: 100vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
-
-.full-photo p {
-  font-size: 2em;
-  color: white;
-  text-align: center;
-  position: relative;
-  margin-top: 30vh;
-  font-family: 'Abril Fatface', cursive; }
 
 .intro {
   text-align: center;
@@ -76,6 +82,18 @@ h4 {
   height: 300px; }
 
 .photo-frame-rect img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%; }
+
+.photo-frame-rect2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 220px; }
+
+.photo-frame-rect2 img {
   flex-shrink: 0;
   min-width: 100%;
   min-height: 100%; }
@@ -98,10 +116,10 @@ h4 {
 .registry {
   display: block;
   max-width: 320px;
-  border: solid 2px #8BA974;
+  border: solid 2px #296170;
   margin: 0 auto;
   margin-bottom: 15px;
-  color: #8BA974;
+  color: #296170;
   line-height: 44px;
   letter-spacing: 2px;
   text-align: center;
@@ -111,12 +129,53 @@ h4 {
 .registry:hover {
   border: none;
   color: white;
-  background-color: #8BA974; }
+  background-color: #296170;
+  text-decoration: none !important; }
+
+.main-nav {
+  display: block;
+  max-width: 190px;
+  border: solid 2px white;
+  margin-bottom: 5px;
+  color: white;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+.main-nav:hover {
+  display: block;
+  max-width: 190px;
+  border: solid 2px white;
+  margin-bottom: 5px;
+  color: white;
+  background-color: #296170;
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase; }
 
 .footer {
-  color: #8BA974;
+  color: #296170;
   font-weight: bold;
   text-align: center;
   margin-top: 40px; }
+
+@media only screen and (max-width: 600px) {
+  .mobile {
+    display: block; }
+
+  .desktop {
+    display: none; }
+
+  .full-photo {
+    background: url(../images/BriJamieCover-mobile.jpg) no-repeat center center fixed;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; } }
 
 /*# sourceMappingURL=style.css.map */

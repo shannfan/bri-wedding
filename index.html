@@ -4,130 +4,239 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Alex and Alex</title>
-  <meta name="description" content="FoST FEST">
-  <meta name="author" content="Future of StoryTelling">
+  <title>Brianne and James</title>
+  <meta name="description" content="Brianne and Jamie">
+  <meta name="author" content="Shannon Fanuko">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" charset="utf-8"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pavilion/1.0.25/pavilion.min.css">
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" media="screen" title="no title" charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Work+Sans:600" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
-  <script src="https://player.vimeo.com/api/player.js"></script>
-  <script src="scrollspy.js" charset="utf-8"></script>
 
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue.min.js"></script>
-  <script src="data.js" charset="utf-8"></script>
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-        
-        <script type="text/javascript">
-            // When the window has finished loading create our google map below
-            google.maps.event.addDomListener(window, 'load', init);
-        
-            function init() {
-                // Basic options for a simple Google Map
-                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-                var mapOptions = {
-                    // How zoomed in you want the map to start at (always required)
-                    zoom: 11,
+  <!-- Core CSS file -->
+<link rel="stylesheet" href="css/photoswipe.css"> 
 
-                    scrollwheel: false,
+<!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+     In the folder of skin CSS file there are also:
+     - .png and .svg icons sprite, 
+     - preloader.gif (for browsers that do not support CSS animations) -->
+<link rel="stylesheet" href="css/default-skin/default-skin.css"> 
 
-                    // The latitude and longitude to center the map (always required)
-                    center: new google.maps.LatLng(40.6700, -73.9400), // New York
+<!-- Core JS file -->
+<script src="js/photoswipe.min.js"></script> 
 
-                    // How you would like to style the map. 
-                    // This is where you would paste any style found on Snazzy Maps.
-                    styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
-                };
-
-                // Get the HTML DOM element that will contain your map 
-                // We are using a div with id="map" seen below in the <body>
-                var mapElement = document.getElementById('map');
-
-                // Create the Google Map using our element and options defined above
-                var map = new google.maps.Map(mapElement, mapOptions);
-
-                // Let's also add a marker while we're at it
-                var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(40.6700, -73.9400),
-                    map: map,
-                    title: 'Snazzy!'
-                });
-            }
-        </script>
-
+<!-- UI JS file -->
+<script src="js/photoswipe-ui-default.min.js"></script> 
 
 </head>
 
 <body id="view">
   <div id="wrapper">
-  <div class="container-full-width header">
-    <p>Alex <span class="emph">and</span> Alex</p>
-  </div>
   <div class="container-full-width full-photo">
-    <p>December 9, 2017</p>
+  <div class="container-full-width header">
+    <div class="desktop"><img width="190px;" src="images/LogoBriJamie-white.png"/></div>
+    <div class="mobile"><br/><center><img width="190px;" src="images/LogoBriJamie-white.png"/></center></div>
+    <br/><br/>
+    <div class="desktop">
+    <a class="main-nav" href="#our-story">OUR STORY</a><br/>
+    <a class="main-nav" href="#the-wedding">THE WEDDING</a><br/>
+    <a class="main-nav" href="#lodging">LODGING</a><br/>
+    <a class="main-nav" href="#registry">REGISTRY</a><br/><br/>
+    </div>
+
+    <div class="mobile">
+    <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <center><a class="main-nav" href="#our-story">OUR STORY</a></center>
+    <!--<center><a class="main-nav" href="#our-story">OUR STORY</a><br/>
+    <a class="main-nav" href="#the-wedding">THE WEDDING</a><br/>
+    <a class="main-nav" href="#lodging">LODGING</a><br/>
+    <a class="main-nav" href="#registry">REGISTRY</a><br/><br/></center>-->
+    </div>
+  </div>
+    
   </div>
 
-  <div class="container">
-    <h3>Alex and Alex are getting married!</h3>
+  <div id="our-story" class="container">
+    <center><img class="add-space" height="55px;" src="images/our-story.png"/></center>
     <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam, massa risus vulputate urna, et vulputate lectus lorem eu quam. Nullam dapibus turpis mi, eget tincidunt est vestibulum ut. Integer quis mollis quam, dapibus dictum sapien. In posuere ullamcorper quam, et tincidunt elit vulputate eu.</p>
+
+    <!--*******BEGIN IMAGE GALLERY*******-->
+<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <a href="images/Gallery/BriJamie1.jpeg" itemprop="contentUrl" data-size="720x684">
+          <img src="images/Gallery/t-BriJamie1.jpg" itemprop="thumbnail" alt="Image description" />
+      </a>
+                                          <!--<figcaption itemprop="caption description">Image caption  1</figcaption>-->
+                                          
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <a href="images/Gallery/BriJamie2.jpg" itemprop="contentUrl" data-size="768x1024">
+          <img src="images/Gallery/t-BriJamie2.jpg" itemprop="thumbnail" alt="Image description" />
+      </a>
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <a href="images/Gallery/BriJamie3.jpg" itemprop="contentUrl" data-size="1024x768">
+          <img src="images/Gallery/t-BriJamie3.jpg" itemprop="thumbnail" alt="Image description" />
+      </a>
+      
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <a href="images/Gallery/BriJamie4.jpg" itemprop="contentUrl" data-size="768x1024">
+          <img src="images/Gallery/t-BriJamie4.jpg" itemprop="thumbnail" alt="Image description" />
+      </a>
+      
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <a href="images/Gallery/BriJamie5.jpg" itemprop="contentUrl" data-size="768x1024">
+          <img src="images/Gallery/t-BriJamie5.jpg" itemprop="thumbnail" alt="Image description" />
+      </a>
+      
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <a href="images/Gallery/BriJamie6.jpg" itemprop="contentUrl" data-size="768x1024">
+          <img src="images/Gallery/t-BriJamie6.jpg" itemprop="thumbnail" alt="Image description" />
+      </a>
+      
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <a href="images/Gallery/BriJamie7.jpg" itemprop="contentUrl" data-size="657x1024">
+          <img src="images/Gallery/t-BriJamie7.jpg" itemprop="thumbnail" alt="Image description" />
+      </a>
+      
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <a href="images/Gallery/BriJamie8.jpg" itemprop="contentUrl" data-size="768x1024">
+          <img src="images/Gallery/t-BriJamie8.jpg" itemprop="thumbnail" alt="Image description" />
+      </a>
+      
+    </figure>
+
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+      <a href="images/Gallery/BriJamie9.jpg" itemprop="contentUrl" data-size="808x1024">
+          <img src="images/Gallery/t-BriJamie9.jpg" itemprop="thumbnail" alt="Image description" />
+      </a>
+      
+    </figure>
+
+
   </div>
 
-  <div class="container add-space">
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element, as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+        <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+          </div>
+
+        </div>
+
+</div>
+
+    <!--*******END IMAGE GALLERY*******-->
+
+  </div>
+
+  <!--<div class="container add-space">
     <div class="row">
       <div class="col-pl-50 col-tl-50"">
-          <div class="photo-frame-rect"><img src="images/placeholder2.jpg"></div>
+          <div class="photo-frame-rect"><img src="images/BriJamieCoors.jpg"></div>
       </div>
       <div class="col-pl-50 col-tl-50">
            <div class="photo-frame-rect"><img src="images/placeholder3.jpg"></div>
       </div>
     </div>
+  </div>-->
+
+
+<div id="the-wedding" class="container">
+    <center><img class="add-space" height="55px;" src="images/the-wedding.png"/></center>
+    <p class="intro"><b>Saturday, December 8, 2018</b></p>
   </div>
 
-  <div class="add-space">
-   <center><div><img class="ornament" src="images/ornament.svg"></div></center>
-  </div>
-
-  <div class="container-tl add-space">
+  <div class="container-tl">
     <div class="row">
-      <div class="col-pl-50 col-tl-50 ">
-          <h4>Friday, December 8th</h4>
-          <p class="subhead">Rehearsal Dinner 6:00 PM</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam, massa risus vulputate urna, et vulputate lectus lorem eu quam.</p>
-
-          <p class="subhead">Kick-Off Party 9:00 PM</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam, massa risus vulputate urna, et vulputate lectus lorem eu quam.</p>
+      <div class="col-pl-50 col-tl-50">
+          <div class="photo-frame-rect2"><img class="mobile-space" src="images/surfclub.jpg"></div>
       </div>
       <div class="col-pl-50 col-tl-50 ">
-          <h4>Saturday, December 9th</h4>
-          <p class="subhead">Ceremony 6:00 PM</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam, massa risus vulputate urna, et vulputate lectus lorem eu quam.</p>
-
-          <p class="subhead">Reception 7:00 PM</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam, massa risus vulputate urna, et vulputate lectus lorem eu quam.</p>
+          <p class="subhead">Surf Club on the Sound</p>
+          <p><b>280 Davenport Ave., New Rochelle, NY 10805</b></p>
+          <p>The ceremony will begin at 5:00pm at the Surf Club on the Sound in New Rochelle, NY, and reception will follow immediately after.</p>
+          <p><a href="#">Get Directions</a></p>
       </div>
     </div>
   
   </div>
 
-  <div class="add-space">
-    <center><div><img class="ornament" src="images/ornament.svg"></div></center>
-  </div>
 
-  <div class="container add-space">
-    <div id="map"></div>
-  </div>
-
-  <div class="add-space">
-    <center><div><img class="ornament" src="images/ornament.svg"></div></center>
-  </div>
-
-  <div class="container">
-    <h3>Where to stay</h3>
-    <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam.</p>
+  <div id="lodging" class="container">
+    <center><img class="add-space" height="55px;" src="images/lodging.png"/></center>
   </div>
 
   <div class="container-tl">
@@ -135,97 +244,31 @@
       <div class="col-pl-50 col-tl-50">
           <p class="subhead">Hotel #1</p>
           <p><b>123 Address Goes Here, New York, NY 10011</b></p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam, massa risus vulputate urna, et vulputate lectus lorem eu quam.</p>
-          <a target="_blank" href="http://www.melcher.com">Book Here</a>
+          <p>We've reserved room blocks for our guests at TKTKTK. To reserve a room at our discounted rate, visit TKTKTKTK.</p>
+          <p><a href="#">Get Directions</a></p>
       </div>
       <div class="col-pl-50 col-tl-50 ">
-          <p class="subhead">Hotel #2</p>
-          <p><b>123 Address Goes Here, New York, NY 10011</b></p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam, massa risus vulputate urna, et vulputate lectus lorem eu quam.</p>
-          <a target="_blank" href="http://www.melcher.com">Book Here</a>
+          <p class="subhead">Shuttle Information</p>
+          <p><b>Stay Tuned!</b></p>
+          <p>A shuttle will be provided to and from Surf Club on the Sound. Stay tuned for more details on pickup times.</p>
       </div>
     </div>
   
   </div>
 
-  <div class="add-space">
-    
+
+  <div id="registry" class="container">
+    <center><img class="add-space" height="55px;" src="images/registry.png"/></center>
+    <p class="intro">Your presence at the wedding is more than enough! But if you'd like to purchase us a gift, we're registered at the following locations.</p>
   </div>
 
-  <div class="container">
-    <h3>How to get there</h3>
-  </div>
-
-  <div class="container-tl">
+    <div class="container-tl">
     <div class="row">
-      <div class="col-pl-50 col-tl-50">
-          <p class="subhead">By Car</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam, massa risus vulputate urna, et vulputate lectus lorem eu quam.</p>
-          <a target="_blank" href="http://www.melcher.com">Link here</a>
+      <div class="col-pl-50 col-tl-50 ">
+          <a class="registry" href="https://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?eventType=Wedding&registryId=545944604" target="_blank">Bed, Bath &amp; Beyond</a>
       </div>
       <div class="col-pl-50 col-tl-50 ">
-          <p class="subhead">By Train</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam, massa risus vulputate urna, et vulputate lectus lorem eu quam.</p>
-          <a target="_blank" href="http://www.melcher.com">Link here</a>
-      </div>
-    </div>
-  
-  </div>
-  
-  </div>
-
-  <div class="add-space">
-    <center><div><img class="ornament" src="images/ornament.svg"></div></center>
-  </div>
-
-  <div class="container">
-    <h3>Things to do</h3>
-    <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam.</p>
-  </div>
-
-  <div class="container-tl">
-    <div class="row">
-      <div class="col-pl-33 col-tl-33 centered">
-          <p class="subhead">Food and Drink</p>
-          <p><a target="_blank" href="http://www.melcher.com">Item Goes Here</a></p>
-          <p><a target="_blank" href="http://www.melcher.com">Item Goes Here</a></p>
-          <p><a target="_blank" href="http://www.melcher.com">Item Goes Here</a></p>
-      </div>
-      <div class="col-pl-33 col-tl-33 centered">
-          <p class="subhead">Activities</p>
-          <p><a target="_blank" href="http://www.melcher.com">Item Goes Here</a></p>
-          <p><a target="_blank" href="http://www.melcher.com">Item Goes Here</a></p>
-          <p><a target="_blank" href="http://www.melcher.com">Item Goes Here</a></p>
-      </div>
-      <div class="col-pl-33 col-tl-33 centered">
-          <p class="subhead">Shopping</p>
-          <p><a target="_blank" href="http://www.melcher.com">Item Goes Here</a></p>
-          <p><a target="_blank" href="http://www.melcher.com">Item Goes Here</a></p>
-          <p><a target="_blank" href="http://www.melcher.com">Item Goes Here</a></p>
-      </div>
-    </div>
-  
-  </div>
-
-  <div class="add-space">
-    <center><div><img class="ornament" src="images/ornament.svg"></div></center>
-  </div>
-
-  <div class="container">
-    <h3>Registry</h3>
-    <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at gravida nisi. Praesent facilisis, eros non elementum aliquam.</p>
-  </div>
-
-  <div class="container-tl">
-    <div class="row">
-      <div class="col-pl-33 col-tl-33 ">
-          <a class="registry" href="http://www.melcher.com" target="_blank">Amazon</a>
-      </div>
-      <div class="col-pl-33 col-tl-33 ">
-          <a class="registry" href="http://www.melcher.com" target="_blank">Crate &amp; Barrel</a>
-      </div>
-      <div class="col-pl-33 col-tl-33 ">
-          <a class="registry" href="http://www.melcher.com" target="_blank">Macy's</a>
+          <a class="registry" href="https://www.anthropologie.com/registry/listing?registryId=MTE4NMFKZDE1" target="_blank">Anthropologie</a>
       </div>
     </div>
   
@@ -235,20 +278,225 @@
   <p>&nbsp;</p>
   </div>
 
-  <div class="container add-space">
-    <div class="row">
-      <div class="col-pl-50 col-tl-50"">
-          <div class="photo-frame-rect"><img src="images/placeholder2.jpg"></div>
-      </div>
-      <div class="col-pl-50 col-tl-50">
-           <div class="photo-frame-rect"><img src="images/placeholder3.jpg"></div>
-      </div>
-    </div>
+  <div class="container">
+    <center><img width="100%" src="images/BriJamieEndframe.jpg"></center>
   </div>
 
-  <p class="footer">#WhenAlexMetAlex</p>
+  <center><p class="footer"><img width="60px" src="images/MonogramBJ.png"/></p></center>
 		
   </div> <!--END WRAPPER-->
+
+
+<script>
+var initPhotoSwipeFromDOM = function(gallerySelector) {
+
+    // parse slide data (url, title, size ...) from DOM elements 
+    // (children of gallerySelector)
+    var parseThumbnailElements = function(el) {
+        var thumbElements = el.childNodes,
+            numNodes = thumbElements.length,
+            items = [],
+            figureEl,
+            linkEl,
+            size,
+            item;
+
+        for(var i = 0; i < numNodes; i++) {
+
+            figureEl = thumbElements[i]; // <figure> element
+
+            // include only element nodes 
+            if(figureEl.nodeType !== 1) {
+                continue;
+            }
+
+            linkEl = figureEl.children[0]; // <a> element
+
+            size = linkEl.getAttribute('data-size').split('x');
+
+            // create slide object
+            item = {
+                src: linkEl.getAttribute('href'),
+                w: parseInt(size[0], 10),
+                h: parseInt(size[1], 10)
+            };
+
+
+
+            if(figureEl.children.length > 1) {
+                // <figcaption> content
+                item.title = figureEl.children[1].innerHTML; 
+            }
+
+            if(linkEl.children.length > 0) {
+                // <img> thumbnail element, retrieving thumbnail url
+                item.msrc = linkEl.children[0].getAttribute('src');
+            } 
+
+            item.el = figureEl; // save link to element for getThumbBoundsFn
+            items.push(item);
+        }
+
+        return items;
+    };
+
+    // find nearest parent element
+    var closest = function closest(el, fn) {
+        return el && ( fn(el) ? el : closest(el.parentNode, fn) );
+    };
+
+    // triggers when user clicks on thumbnail
+    var onThumbnailsClick = function(e) {
+        e = e || window.event;
+        e.preventDefault ? e.preventDefault() : e.returnValue = false;
+
+        var eTarget = e.target || e.srcElement;
+
+        // find root element of slide
+        var clickedListItem = closest(eTarget, function(el) {
+            return (el.tagName && el.tagName.toUpperCase() === 'FIGURE');
+        });
+
+        if(!clickedListItem) {
+            return;
+        }
+
+        // find index of clicked item by looping through all child nodes
+        // alternatively, you may define index via data- attribute
+        var clickedGallery = clickedListItem.parentNode,
+            childNodes = clickedListItem.parentNode.childNodes,
+            numChildNodes = childNodes.length,
+            nodeIndex = 0,
+            index;
+
+        for (var i = 0; i < numChildNodes; i++) {
+            if(childNodes[i].nodeType !== 1) { 
+                continue; 
+            }
+
+            if(childNodes[i] === clickedListItem) {
+                index = nodeIndex;
+                break;
+            }
+            nodeIndex++;
+        }
+
+
+
+        if(index >= 0) {
+            // open PhotoSwipe if valid index found
+            openPhotoSwipe( index, clickedGallery );
+        }
+        return false;
+    };
+
+    // parse picture index and gallery index from URL (#&pid=1&gid=2)
+    var photoswipeParseHash = function() {
+        var hash = window.location.hash.substring(1),
+        params = {};
+
+        if(hash.length < 5) {
+            return params;
+        }
+
+        var vars = hash.split('&');
+        for (var i = 0; i < vars.length; i++) {
+            if(!vars[i]) {
+                continue;
+            }
+            var pair = vars[i].split('=');  
+            if(pair.length < 2) {
+                continue;
+            }           
+            params[pair[0]] = pair[1];
+        }
+
+        if(params.gid) {
+            params.gid = parseInt(params.gid, 10);
+        }
+
+        return params;
+    };
+
+    var openPhotoSwipe = function(index, galleryElement, disableAnimation, fromURL) {
+        var pswpElement = document.querySelectorAll('.pswp')[0],
+            gallery,
+            options,
+            items;
+
+        items = parseThumbnailElements(galleryElement);
+
+        // define options (if needed)
+        options = {
+
+            // define gallery index (for URL)
+            galleryUID: galleryElement.getAttribute('data-pswp-uid'),
+
+            getThumbBoundsFn: function(index) {
+                // See Options -> getThumbBoundsFn section of documentation for more info
+                var thumbnail = items[index].el.getElementsByTagName('img')[0], // find thumbnail
+                    pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
+                    rect = thumbnail.getBoundingClientRect(); 
+
+                return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
+            }
+
+        };
+
+        // PhotoSwipe opened from URL
+        if(fromURL) {
+            if(options.galleryPIDs) {
+                // parse real index when custom PIDs are used 
+                // http://photoswipe.com/documentation/faq.html#custom-pid-in-url
+                for(var j = 0; j < items.length; j++) {
+                    if(items[j].pid == index) {
+                        options.index = j;
+                        break;
+                    }
+                }
+            } else {
+                // in URL indexes start from 1
+                options.index = parseInt(index, 10) - 1;
+            }
+        } else {
+            options.index = parseInt(index, 10);
+        }
+
+        // exit if index not found
+        if( isNaN(options.index) ) {
+            return;
+        }
+
+        if(disableAnimation) {
+            options.showAnimationDuration = 0;
+        }
+
+        // Pass data to PhotoSwipe and initialize it
+        gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+        gallery.init();
+    };
+
+    // loop through all gallery elements and bind events
+    var galleryElements = document.querySelectorAll( gallerySelector );
+
+    for(var i = 0, l = galleryElements.length; i < l; i++) {
+        galleryElements[i].setAttribute('data-pswp-uid', i+1);
+        galleryElements[i].onclick = onThumbnailsClick;
+    }
+
+    // Parse URL and open gallery if it contains #&pid=3&gid=1
+    var hashData = photoswipeParseHash();
+    if(hashData.pid && hashData.gid) {
+        openPhotoSwipe( hashData.pid ,  galleryElements[ hashData.gid - 1 ], true, true );
+    }
+};
+
+// execute above function
+initPhotoSwipeFromDOM('.my-gallery');
+
+
+</script>
+
 
 
 </body>
