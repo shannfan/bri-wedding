@@ -182,6 +182,6 @@ h4 {
 
   .full-photo {
     background: url(../images/BriJamieCover-mobile2.jpg) no-repeat center center fixed;
-    background-size: auto 100%; } }
+    background-size: auto 100% !important; } }
 
 /*# sourceMappingURL=style.css.map */
