@@ -181,6 +181,37 @@ h4 {
     display: none; }
 
   .full-photo {
-    background: url(../images/BriJamieCover-mobile2.jpg) no-repeat center center fixed; } }
+    background: none; }
+
+  .mobile-cover {
+    position: relative;
+    width: 200%;
+    left: -200px; }
+
+  .main-nav-mob {
+    display: block;
+    max-width: 190px;
+    border: solid 2px #296170;
+    margin-bottom: 5px;
+    color: white;
+    background-color: #296170;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase; }
+
+  .main-nav-mob:hover {
+    display: block;
+    max-width: 190px;
+    border: solid 2px #296170;
+    margin-bottom: 5px;
+    color: #296170;
+    background-color: white;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase; } }
 
 /*# sourceMappingURL=style.css.map */
