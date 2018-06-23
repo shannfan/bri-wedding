@@ -181,6 +181,7 @@ h4 {
     display: none; }
 
   .full-photo {
-    background: url(../images/BriJamieCover-mobile2.jpg) no-repeat center center fixed; } }
+    background: url(../images/BriJamieCover-mobile2.jpg) no-repeat center center fixed;
+    background-size: auto 100%; } }
 
 /*# sourceMappingURL=style.css.map */
